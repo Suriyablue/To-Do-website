@@ -8,8 +8,9 @@
     background-size: auto 100%; /* Ensure the image height is fully shown */
     background-position: center; /* Center the image horizontally */
     min-height: 100vh;
-    background-repeat: repeat-y; /* Repeat the image vertically */
-    background-attachment: fixed; /* Keep the image fixed in the viewport */
+    background-repeat: no-repeat; /* Repeat the image vertically */
+    background-size: cover;
+    background-attachment: fixed; /*Keep the image fixed in the viewport */
 }
 /* Style for the TO-DO LIST title */
 .tit {

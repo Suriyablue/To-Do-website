@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="boby">
+    <h1 class="tit">TO-DO-LIST</h1>
+    <div class="container">
+        <input id="input" placeholder="Enter the Task">
+        <button onclick="add()">Add</button>
+
+        <!-- Create a table for the ordered list -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Tasks</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="list">
+                <!-- Initially empty list -->
+            </tbody>
+        </table>
+        
+        <!-- Clear All button (initially hidden) -->
+        <button id="clearAllBtn" onclick="clearAll()" style="display: none;">Clear All</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

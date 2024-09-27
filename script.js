@@ -7,6 +7,7 @@ function add() {
 
     if (task === "") {
         alert("Please enter a valid task.");
+    
         return;
     }
 
